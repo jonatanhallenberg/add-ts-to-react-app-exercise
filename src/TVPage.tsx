@@ -13,7 +13,7 @@ const TVPage = () => {
     useEffect(() => {
         setIsLoading(true);
         if (channelId) {
-            fetch("https://tv-api-k39vq.ondigitalocean.app/" + channelId + ".json")
+            fetch("https://tvapi-3t8qb.ondigitalocean.app/" + channelId + ".json")
                 .then(res => res.json())
                 .then(data => {
                     setPrograms(data.map((program, index) => {

@@ -1,5 +1,6 @@
 # Implementera Typescript i React-app
 
+
 1. Provkör appen för att se hur den funkar:
 
 ```sh
